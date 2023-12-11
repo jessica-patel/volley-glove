@@ -39,7 +39,7 @@ void loop() {
   }
 
   strip.show();
-  delay(1000); // delay of one second
+  delay(3000); // delay of three seconds
 
   // turns all lights off after one second has passed
   for (int i = 0; i < numberOfSensors; i++) {
